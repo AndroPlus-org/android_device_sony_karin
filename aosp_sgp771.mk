@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     $(IVY_ROOT)/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     $(IVY_ROOT)/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     $(IVY_ROOT)/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
+    $(IVY_ROOT)/system/vendor/bin/touch_fusion:system/vendor/bin/touch_fusion \
     $(IVY_ROOT)/system/vendor/etc/touch_fusion_panel_id_0x0000.cfg:system/vendor/etc/touch_fusion_panel_id_0x0000.cfg \
     $(IVY_ROOT)/system/vendor/etc/touch_fusion_panel_id_0x0700.cfg:system/vendor/etc/touch_fusion_panel_id_0x0700.cfg \
     $(IVY_ROOT)/system/vendor/etc/touch_fusion_panel_id_0x0701.cfg:system/vendor/etc/touch_fusion_panel_id_0x0701.cfg \
