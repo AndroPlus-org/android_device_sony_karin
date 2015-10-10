@@ -15,3 +15,5 @@
 include device/sony/kitakami/BoardConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := SGP771
+TARGET_KERNEL_SOURCE := kernel/sony/kitakami
+TARGET_KERNEL_CONFIG := kitakami_defconfig
