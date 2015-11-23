@@ -21,7 +21,6 @@ TARGET_KERNEL_CONFIG := kitakami_defconfig
 TW_BRIGHTNESS_PATH := /sys/class/leds/wled/brightness
 TW_MAX_BRIGHTNESS := 4095
 TW_IGNORE_ABS_MT_TRACKING_ID := true
-TW_NEVER_UNMOUNT_SYSTEM := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone10/temp
 
 TW_THEME := landscape_hdpi
