@@ -19,7 +19,3 @@ on boot
     write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor "interactive"
     write /sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq 1248000
 
-on init
-    mkdir /dev/block/bootdevice
-    symlink /dev/block/platform/soc.0/by-name /dev/block/bootdevice/by-name
-    symlink /system/vendor /vendor
