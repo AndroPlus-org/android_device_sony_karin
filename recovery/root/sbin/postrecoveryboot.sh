@@ -1,2 +1,3 @@
 #!/sbin/sh
-mount /system
+#mount /system
+
