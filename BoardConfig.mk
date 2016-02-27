@@ -18,7 +18,7 @@ TARGET_BOOTLOADER_BOARD_NAME := SGP771
 TARGET_KERNEL_SOURCE := kernel/sony/kitakami
 TARGET_KERNEL_CONFIG := kitakami_defconfig
 
-TW_BRIGHTNESS_PATH := /sys/class/leds/wled/brightness
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 4095
 TW_IGNORE_ABS_MT_TRACKING_ID := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone10/temp
